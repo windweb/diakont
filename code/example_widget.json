@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "threshold": 0.5,
+    "triggerMode": "Cyclic",
+    "triggerCondition": "Equal",
+    "preTrigger": 10,
+    "postTrigger": 20
+  },
+  "signals": [
+    {
+      "name": "Signal 1",
+      "value": 123.45,
+      "type": "Analog"
+    },
+    {
+      "name": "Signal 2",
+      "value": 678.90,
+      "type": "Digital"
+    }
+  ]
+}

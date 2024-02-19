@@ -1,0 +1,6 @@
+pyqtgraph
+pyqt5
+pyqt5-stubs
+pyqt5-tools
+pyinstaller
+loguru
