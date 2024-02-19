@@ -9,14 +9,6 @@ from example_model import ExampleModel
 from unittest.mock import MagicMock
 
 
-# @pytest.fixture
-# def app(qtbot):
-#     """Fixture to initialize QApplication and our widget."""
-#     # Ensure only one QApplication instance throughout the tests
-#     app = QApplication.instance() if QApplication.instance() else QApplication(sys.argv)
-#     test_widget = TestWidget()
-#     qtbot.addWidget(test_widget)
-#     return test_widget
 
 @pytest.fixture
 def app(qtbot):
