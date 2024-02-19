@@ -147,7 +147,7 @@ pytest .tests\test_data_consistency.py -s -v
 ```bash
 pytest .tests\test_main_ui.py -s -v
 ```   
-
+Кроме того, в проекте есть файлы с визуализацией данных. Они находятся в папке code и начинаются с имени vizual*.py
 
 ## Что можно улучшить
 
