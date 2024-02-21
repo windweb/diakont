@@ -105,6 +105,7 @@ py -m pip freeze > requirements.txt
 ```
 
 ## Структура проекта
+```
 -diakont
 |-- README.md
 |-- code
@@ -127,6 +128,7 @@ py -m pip freeze > requirements.txt
 |   |-- test_data_consistency.py  # pytest .tests\test_data_consistency.py -s -v
 |   |-- test_main_ui.py  # pytest .tests\test_main_ui.py -s -v
 |   |-- <и так далее>
+```
 
 ### Тестирование
 ```bash
